@@ -1,0 +1,10 @@
+I am so happy and excited today! | joy | 1.00 | correct
+I feel really sad and hopeless | sadness | 1.00 | correct
+I am furious about what happened | anger | 1.00 | correct
+I am scared and terrified right now | anger | 0.98 | wrong
+I love you deeply with all my heart | love | 0.92 | correct
+This is so surprising and unexpected | surprise | 0.80 | correct
+Everything feels wonderful and peaceful | joy | 1.00 | correct
+I can't stop crying, I feel so alone | sadness | 1.00 | correct
+This makes me so angry I could scream | anger | 1.00 | correct
+I am deeply in love with this moment | love | 0.96 | correct
