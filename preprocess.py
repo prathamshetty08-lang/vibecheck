@@ -15,15 +15,17 @@ def preprocess(text):
     return tokens
 
 # Test on 5 sentences
-sentences = [
+if __name__ == "__main__":
+    # all your test code here
+ sentences = [
     "I'm SO hyped!!!!",
     "ugh... everything's going wrong",
     "I feel really happy and excited today",
     "I am so stressed and anxious right now",
     "Everything feels calm and peaceful"
-]
+ ]
 
 for s in sentences:
-    print(f"Original: {s}")
-    print(f"Tokens: {preprocess(s)}")
-    print("---")
+     print(f"Original: {s}")
+     print(f"Tokens: {preprocess(s)}")
+     print("---")
