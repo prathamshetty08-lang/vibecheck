@@ -25,7 +25,7 @@ if __name__ == "__main__":
     "Everything feels calm and peaceful"
  ]
 
-for s in sentences:
+ for s in sentences:
      print(f"Original: {s}")
      print(f"Tokens: {preprocess(s)}")
      print("---")
