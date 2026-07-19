@@ -3,6 +3,8 @@ from flask_cors import CORS
 from emotion_detector import predict_emotion
 from preprocess import preprocess
 import json
+import nltk
+nltk.download('punkt_tab', quiet=True)
 
 app = Flask(__name__)
 CORS(app)
