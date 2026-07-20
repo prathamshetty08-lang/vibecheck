@@ -7,7 +7,10 @@ import nltk
 nltk.download('punkt_tab', quiet=True)
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "http://localhost:3000",  # local testing
+    "https://vibecheck-frontend-lyart.vercel.app"  # your Vercel frontend
+])
 
 # Load your lastfm_results.json once at startup
 with open("lastfm_results.json") as f:
